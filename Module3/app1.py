@@ -1,15 +1,22 @@
-from flask import Flask
+# from flask import Flask
 
-app = Flask(_name_)
+# app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return ("This is the suman gangopadhyay's flask application")
+# #simple routing
+# @app.route('/')
+# def index():
+#     return("index page of the app")
 
-@app.route('/about')
-def about():
-    return("This is the about page of suman gangopadhyay")
+# #another example
+# @app.route('/about')
+# def about():
+#     return("about page of the app")
+
+# #vanity url #dynamic url
+# @app.route('/about<name>')
+# def auther(name):
+#            return("the name of the auther is" +name)
 
 
-if _name_ == '_maian_':
-    app.run(debug = True, port=5000)
+# if __name__ == '__main__' :
+#     app.run(debug=True, port=5000)
