@@ -1,8 +1,7 @@
-//console.log("objects!!");
 const person = {};
-
-person["firstName"] = "sindhu";
-person["lastName"] = "verma";
-
-
-console.log("person");
+person ["firstName"] = "Sidd";
+person["lastname"] = "verma";
+person.age = 24;
+person.designation = "fullstack developer";
+person.address = "up";
+console.log(person);
